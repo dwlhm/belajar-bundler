@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../sandbox/portofolio/amaliyah/webpack-app"
+		},
+		{
+			"path": "../../../sandbox/portofolio/amaliyah-solidjs"
+		},
+		{
+			"path": "../../../sandbox/portofolio/amaliyah/solidjs-express"
+		},
+		{
+			"path": "../../../sandbox/tugas_akhir"
+		}
+	],
+	"settings": {}
+}

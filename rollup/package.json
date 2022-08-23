@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:rollup": "rollup -c",
+    "build:rollup": "rollup -c && copyfiles -f src/views/index.html dist/dist",
     "build:tsc": "rimraf dist && tsc",
+    "start": "node dist/final/main.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -27,6 +28,7 @@
     "@types/jest": "^28.1.6",
     "@types/node": "^18.6.3",
     "babel-preset-solid": "^1.4.8",
+    "copyfiles": "^2.4.1",
     "deepmerge": "^4.2.2",
     "jest": "^28.1.3",
     "nodemon": "^2.0.19",
